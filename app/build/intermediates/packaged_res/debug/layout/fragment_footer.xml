@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DCD8D8"
+        android:orientation="vertical"
+        tools:context=".fragments.FooterF" android:tag="layout/fragment_footer_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/MonkeyPox"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtOur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:text="@string/our_pages"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_below="@id/txtOur"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtHome"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtHome"
+                android:layout_marginStart="15dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtDiagnosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Diagnosis"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtDiagnosis"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtDoctors"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Doctors"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtDoctors"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtFaqs"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FAQS"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtFaqs"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtHistory"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/History"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtHistory"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtContact"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_uss"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtContact"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/txtNews"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/News"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtNews"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="15dp"
+                android:id="@+id/txtPrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prevention"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:layout_below="@id/txtPrev"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="15dp"
+                android:id="@+id/txtAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/check_yourself"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="32dp"
+
+                android:text="@string/checkCardText"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EACACA"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/check_yourself"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_rectangle"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/contact_us"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+            <TextView
+                android:id="@+id/textView8"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/contactUsCard"
+
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnContact2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EACACA"
+                android:gravity="center"
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/contact_uss"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp"
+                tools:ignore="TextContrastCheck" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="@drawable/shape_rectangle"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contactUCI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/contact_information"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactUCI"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:drawablePadding="10dp"
+                android:text="@string/_01091617736"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_phone">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/txtMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPhone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="15dp"
+                android:text="@string/gmail"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_email_24">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMail"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="15dp"
+                android:text="@string/location"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+         

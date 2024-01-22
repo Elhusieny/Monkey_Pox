@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/nav_Diagnosis"
+            android:title="@string/Diagnosis"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_contactUs"
+            android:title="@string/contactus"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_FAQS"
+            android:title="@string/FAQS"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_history"
+            android:title="@string/History"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_prevention"
+            android:title="@string/prevention"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_news"
+            android:title="@string/News"
+            android:icon="@drawable/ic_local_activity"/>
+        <item android:id="@+id/nav_doctors"
+            android:title="@string/Doctors"
+            android:icon="@drawable/ic_local_activity"/>
+
+
+
+    </group>
+
+    <item android:title="@string/communicate">
+
+        <menu>
+            <item android:title="@string/login"
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_baseline_login_24"/>
+            <item android:title="Register"
+                android:id="@+id/nav_signup"
+                android:icon="@drawable/ic_baseline_app_registration_24"/>
+            <item android:title="@string/logout"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+
+        <menu>
+            <item android:title="@string/share"
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"/>
+            <item android:title="@string/chat"
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_chat"/>
+            <item android:title="@string/send"
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"/>
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/settings">
+        <menu>
+            <item android:title="@string/settings"
+                android:icon="@drawable/ic_settings_"
+                android:id="@+id/nav_settings"/>
+        </menu>
+    </item>
+
+</menu>

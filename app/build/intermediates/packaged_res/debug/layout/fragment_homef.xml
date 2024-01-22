@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.HomeF" android:tag="layout/fragment_homef_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <ImageView
+
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/top" />
+
+            <LinearLayout
+
+                android:layout_marginTop="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/home"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/heade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/ic_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/ic_home" />
+
+                    <TextView
+                        android:id="@+id/HomeClick"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="11dp"
+                        android:layout_toEndOf="@id/ic_home"
+                        android:text="@string/homeClicker"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ic_arrowRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_toEndOf="@id/HomeClick"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/ic_arrow_forward"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:id="@+id/contactUsClick"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/ic_arrowRight"
+                        android:text="@string/contact_us_clicker"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/blue_dark">
+
+            <TextView
+
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Introduction"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/introductionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:layout_below="@id/introduction"
+                android:text="@string/introduction"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rectangle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imgPath"
+                android:layout_height="250dp"
+                android:src="@drawable/pathogen" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgPath"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/thePathegon"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/the_pathogen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="@string/pathogen"
+                android:layout_below="@id/thePathegon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blueshape">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/naturalImg"
+                android:layout_height="250dp"
+                android:src="@drawable/natural" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/naturalImg"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/NaturalHost"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/natural_host_of_monkeypox_virus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:text="@string/Natural_host"
+                android:layout_below="@id/NaturalHost" />
+        </RelativeLayout>
+
+    </LinearLayout>
+         

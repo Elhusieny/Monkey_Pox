@@ -1,0 +1,9 @@
+com.example.monkeypoxwithfragment.test.app-annotation-experimental-1.3.0-0 C:\Users\lenovo\AndroidStudioProjects\firstPluralsightBasicAcApp\caches\transforms-3\73587f1eb845e337cf4f25957f776481\transformed\annotation-experimental-1.3.0\res
+com.example.monkeypoxwithfragment.test.app-core-1.5.0-1 C:\Users\lenovo\AndroidStudioProjects\firstPluralsightBasicAcApp\caches\transforms-3\da962a5398f8ff3bf21153e86700db65\transformed\core-1.5.0\res
+com.example.monkeypoxwithfragment.test.app-androidTest-2 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\build\generated\res\resValues\androidTest\debug
+com.example.monkeypoxwithfragment.test.app-androidTest-3 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\build\generated\res\rs\androidTest\debug
+com.example.monkeypoxwithfragment.test.app-mergeDebugAndroidTestResources-4 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.monkeypoxwithfragment.test.app-mergeDebugAndroidTestResources-5 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.monkeypoxwithfragment.test.app-merged_res-6 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\build\intermediates\merged_res\debugAndroidTest
+com.example.monkeypoxwithfragment.test.app-androidTest-7 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\src\androidTest\res
+com.example.monkeypoxwithfragment.test.app-androidTestDebug-8 C:\Users\lenovo\AndroidStudioProjects\monkeypoxwithfragment\app\src\androidTestDebug\res

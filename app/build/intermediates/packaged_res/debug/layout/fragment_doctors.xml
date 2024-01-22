@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.DoctorsF" android:tag="layout/fragment_doctors_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/doctorsRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/fab"
+
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/Doctors"
+            android:src="@drawable/ic_baseline_add_24"
+            android:tint="#FBF6F6"
+            app:backgroundTint="#F3ECEC"
+            tools:ignore="ImageContrastCheck" />
+    </RelativeLayout>
+         

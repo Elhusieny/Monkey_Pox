@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PreventionF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_dark"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/prevention" />
+
+        <TextView
+            android:id="@+id/txtPreSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_below="@id/imgPr"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/preventionSteps"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFiveSteps"
+
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPreSteps"
+            android:layout_marginTop="20dp"
+            android:text="@string/fiveSteps"
+            android:textColor="@color/black"
+
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:fadeScrollbars="true"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+
+            android:text="@string/step"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/step1"
+            android:background="@drawable/shape_circle"
+            android:text="@string/_1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/txtStep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/step1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStep1Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep1"
+            android:layout_marginTop="10dp"
+            android:text="@string/step1Body"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/txtS1B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep1Body"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s1B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+        <TextView
+            android:id="@+id/txtS1B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtS1B1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s1B2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:fadeScrollbars="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+
+            android:text="@string/step"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/step2"
+            android:background="@drawable/shape_circle"
+            android:text="@string/_2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/txtStep2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/step2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStep2B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s2B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+        <TextView
+            android:id="@+id/txtS2B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep2B1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s1B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+
+            android:text="@string/step"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/step3"
+            android:background="@drawable/shape_circle"
+            android:text="@string/_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/txtStep3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/step3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStep3B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep3"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s3B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+        <TextView
+            android:id="@+id/txtS3B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep3B1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s3B2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:fadeScrollbars="true"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <TextView
+            android:id="@+id/step4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+
+            android:text="@string/step"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/step4"
+            android:background="@drawable/shape_circle"
+            android:text="@string/_4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/txtStep4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/step4"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStep4B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep4"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s4B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+        <TextView
+            android:id="@+id/txtS4B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep4B1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s3B2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <TextView
+            android:id="@+id/step5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+
+            android:text="@string/step"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/step5"
+            android:background="@drawable/shape_circle"
+            android:text="@string/_5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/txtStep5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/step5"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStep5B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStep5"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawablePadding="10dp"
+            android:text="@string/s5B1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

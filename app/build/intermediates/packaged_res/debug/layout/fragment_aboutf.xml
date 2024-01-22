@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.AboutF" android:tag="layout/fragment_aboutf_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+
+                        android:id="@+id/top"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/top" />
+
+                    <LinearLayout
+
+                        android:layout_marginTop="140dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginBottom="15dp"
+                                android:text="@string/about_monkey_pox_header"
+                                android:textColor="@color/black"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/heade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/ic_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_home" />
+
+                        <TextView
+                            android:id="@+id/HomeClick"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_toEndOf="@id/ic_home"
+                            android:text="@string/homeClicker"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/ic_arrowRight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_toEndOf="@id/HomeClick"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_arrow_forward"
+                            app:tint="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:id="@+id/aboutfClick"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/ic_arrowRight"
+                            android:text="@string/about"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@drawable/blueshape"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/mprelated"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monkeypox_related"
+                        android:layout_marginTop="30dp"
+                        android:textSize="25sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="15dp"/>
+
+                    <TextView
+                        android:id="@+id/aboutFText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/mprelated"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape_rectangle"
+                        android:padding="10dp"
+                        android:text="@string/aboutFText"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/blueshape"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                  >
+
+                        <TextView
+                            android:id="@+id/howSpread"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/howItSpread"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"/>
+                    </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/shape_rectangle">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/contact"
+                                android:textStyle="bold"
+                                android:layout_marginTop="15dp"
+                                android:id="@+id/con"
+                                android:textColor="@color/black"
+                                android:textSize="22sp"
+                                />
+
+                        <TextView
+                            android:id="@+id/fewWays"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@id/con"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/way"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+
+
+
+                        <TextView
+                            android:id="@+id/txtSpreadWays"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/fewWays"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/spreadWays"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                          />
+
+                        <TextView
+                            android:id="@+id/txtDirectCon"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtSpreadWays"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/directContact"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtdcCanHappen"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtDirectCon"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="@string/dcCanHappen"
+                            android:textColor="@color/black"
+                             />
+
+                        <TextView
+                            android:id="@+id/txtOral"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtdcCanHappen"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/oral"
+                            android:textColor="@color/black"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtHugging"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtOral"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/hugging"
+                            android:textColor="@color/black"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtProlonged"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtHugging"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/prolonged"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtRiskLow"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtProlonged"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="@string/riskLow"
+                            android:textColor="@color/black"
+                             />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/potential"
+                            android:layout_marginBottom="15dp"
+                            android:id="@+id/pot"
+                            />
+                        <TextView
+                            android:id="@+id/txtPot"
+                            android:layout_below="@id/pot"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/potentialComplications"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/posCom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtPot"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/possipleComplications"
+                            android:textColor="@color/black"
+                           />
+
+                        <TextView
+                            android:id="@+id/txtBron"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/posCom"
+                            android:layout_marginStart="25dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/bronchopneumonia"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtSepsis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtBron"
+                            android:layout_marginStart="25dp"
+
+                            android:drawablePadding="10dp"
+                            android:text="@string/sepsis"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtInf"
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtSepsis"
+                            android:layout_marginStart="25dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/inflam"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtInflection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtInf"
+                            android:layout_marginStart="25dp"
+
+
+                            android:drawablePadding="10dp"
+                            android:text="@string/inflection"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/secInf"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtInflection"
+                            android:layout_marginStart="25dp"
+
+                            android:drawablePadding="10dp"
+                            android:text="@string/secondaryInf"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24"
+                            android:layout_marginBottom="15dp"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgTreatment"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="50dp"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/treated" />
+
+                        <TextView
+                            android:id="@+id/howTreatment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@id/imgTreatment"
+                            android:text="@string/howTreated"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtNoTreatment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/howTreatment"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/noTreatment"
+                            android:textColor="@color/black"
+                          />
+
+                        <TextView
+                            android:id="@+id/txtMedications"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtNoTreatment"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="@string/medications"
+                            android:textColor="@color/black"
+                         />
+
+                        <TextView
+                            android:id="@+id/txtVacciniaV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtMedications"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/vacciniaVaccine"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtImmune"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtVacciniaV"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/immune"
+
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtAntiviral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtImmune"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+
+                            android:layout_marginBottom="30dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/antiviral"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtTecovirimat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtAntiviral"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/tecovirimat"
+
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtBrincidofovir"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtTecovirimat"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/brincidofovir"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtCidofovir"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtBrincidofovir"
+
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/cidofovir"
+                            android:textColor="@color/black"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/blueshape"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageSymptoms"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="@string/todo"
+                            android:outlineProvider="bounds"
+                            android:src="@drawable/sign_and_symbtoses"
+                            android:layout_marginBottom="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@id/imageSymptoms"
+                            android:id="@+id/sym"
+                            android:textSize="25sp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/monkeypox_symptoms"/>
+
+                        <TextView
+                            android:id="@+id/txtsymptoms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/sym"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/symptoms"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtEarlySymptoms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtsymptoms"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/earlySymptoms"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                          />
+
+                        <TextView
+                            android:id="@+id/txtHeadache"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtEarlySymptoms"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/headache"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+
+                            android:drawableTint="@color/white"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtMuscle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtHeadache"
+                            android:layout_marginStart="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/muscle"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+
+                            android:drawableTint="@color/white"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtBackAches"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtMuscle"
+                            android:layout_marginStart="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/backache"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:drawableTint="@color/white"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtFatige"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtBackAches"
+                            android:layout_marginStart="20dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/fatigue"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:drawableTint="@color/white"
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24" />
+
+                        <TextView
+                            android:id="@+id/txtChills"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtFatige"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginBottom="30dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/chills"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+
+                            app:drawableStartCompat="@drawable/ic_baseline_check_24"
+                            android:drawableTint="@color/white"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+         

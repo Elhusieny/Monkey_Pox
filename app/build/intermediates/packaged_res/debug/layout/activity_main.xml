@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.MainActivity"
+        tools:openDrawer="start" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/blue_dark"
+                        android:elevation="4dp"
+                        android:minHeight="?attr/actionBarSize"
+                        app:titleTextColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/fragmentContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="#14457b"
+                    android:orientation="vertical"
+                    tools:context=".fragments.FooterF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/logo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/shape_rectangle"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/logo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_toEndOf="@id/logo"
+                            android:text="@string/MonkeyPox"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/monkeyLogoTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/txtFooterMP"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+
+                        <ImageView
+                            android:id="@+id/facebookImg"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
+                            android:background="#392F33"
+                            android:src="@drawable/faceebook" />
+
+                        <ImageView
+                            android:id="@+id/googleImg"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_toEndOf="@id/facebookImg"
+                            android:background="#392F33"
+                            android:src="@drawable/google" />
+
+                        <ImageView
+                            android:id="@+id/twitterImg"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_toEndOf="@id/googleImg"
+                            android:background="#392F33"
+                            android:src="@drawable/twitter" />
+
+                        <ImageView
+                            android:id="@+id/instaImg"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_toEndOf="@+id/twitterImg"
+                            android:background="#392F33"
+                            android:src="@drawable/insta" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtOur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="20dp"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/our_pages"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtOur"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/home"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtDiagnosis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtHome"
+
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/Diagnosis"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtDoctors"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtDiagnosis"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/Doctors"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtFaqs"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtDoctors"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/FAQS"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtHistory"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtFaqs"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/History"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtContact"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtHistory"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/contact_uss"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtNews"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtContact"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/News"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtPrev"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtNews"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="@string/prevention"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+                        <TextView
+                            android:id="@+id/txtAbout"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txtPrev"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/about"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginVertical="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtRecentPosts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/recent_posts"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/shape_blue_light">
+
+                            <ImageView
+                                android:id="@+id/recImg"
+                                android:layout_width="140dp"
+                                android:layout_height="160dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/white"
+                                android:src="@drawable/news1" />
+
+                            <TextView
+                                android:id="@+id/txtDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_toEndOf="@id/recImg"
+                                android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+                                android:drawablePadding="10dp"
+                                android:text="@string/date1"
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txtRecentPost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/txtDate"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_toEndOf="@id/recImg"
+                                android:text="@string/post1"
+                                android:textColor="@color/white">
+
+                            </TextView>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/shape_blue_light">
+
+                            <ImageView
+                                android:id="@+id/recImg2"
+                                android:layout_width="140dp"
+                                android:layout_height="160dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/white"
+                                android:src="@drawable/news2" />
+
+                            <TextView
+                                android:id="@+id/txtDate2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_toEndOf="@id/recImg2"
+                                android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+                                android:drawablePadding="10dp"
+                                android:text="@string/date1"
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txtRecentPost2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/txtDate2"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_toEndOf="@id/recImg2"
+                                android:text="@string/post2"
+                                android:textColor="@color/white">
+
+                            </TextView>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp">
+
+                        <TextView
+                            android:id="@+id/contactUCI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/contact_information"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_arrow_forward" />
+
+
+                        <TextView
+                            android:id="@+id/txtPhone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/contactUCI"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_01091617736"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_phone">
+
+                        </TextView>
+
+
+                        <TextView
+                            android:id="@+id/txtMail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtPhone"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="15dp"
+                            android:drawableTint="@color/white"
+                            android:text="@string/gmail"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_baseline_email_24">
+
+                        </TextView>
+
+
+                        <TextView
+                            android:id="@+id/txtLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtMail"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawablePadding="15dp"
+                            android:drawableTint="@color/white"
+                            android:text="@string/location"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_baseline_location_on_24">
+
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/main_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+         

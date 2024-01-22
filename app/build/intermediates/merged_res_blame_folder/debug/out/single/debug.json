@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\xml_network_security_configg.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\xml\\network_security_configg.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_security.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_news4.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\news4.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_about.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_blueshape.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\blueshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_splash.jpg.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\splash.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_doctor_data_view.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_doctor_data_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_night_mode.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_night_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_mahmoud.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\mahmoud.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_news3.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\news3.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_monkeypoxx.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\monkeypoxx.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.monkeypoxwithfragment.app-merged_res-5:/layout_fragment_diagnosis.xml.flat",
+        "source": "com.example.monkeypoxwithfragment.app-main-7:/layout/fragment_diagnosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_top.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\top.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_prevention.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\prevention.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back100.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\round_back100.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_apply_as_a_doctor.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_apply_as_a_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_img.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_text_size.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_insta.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\insta.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_password_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_password_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_sign_and_symbtoses.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\sign_and_symbtoses.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_shape_circle.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\shape_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_google.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_news_f_data_view.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_news_f_data_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_potential.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\potential.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_aboutf.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_aboutf.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_cloud_upload_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_cloud_upload_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_fab.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_fab.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_pathogen.jpeg.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\pathogen.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_language.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_footer.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_doctors.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_doctors.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_contact_us.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_contact_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_sarah.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\sarah.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_night_mode.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_night_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_notifications.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_text_size.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_nabil.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\nabil.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_mobile_friendly_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_mobile_friendly_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_local_activity.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_local_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_msg.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_homef.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_homef.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_privacy_icon.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_privacy_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_news1.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\news1.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_natural.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\natural.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_calendar_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_language_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_baseline_language_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_princiss.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\princiss.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_app_registration_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_app_registration_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_security.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_splash_image.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\splash_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_shape_blue_light.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\shape_blue_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_diagnosis.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_diagnosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_transmission.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\transmission.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_settings_.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_settings_.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_treated.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\treated.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_shape_rectangle.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\shape_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_signup.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_upload.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\upload.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_about_us.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\about_us.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_dr.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\dr.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_treatment.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\treatment.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_activity_diagnosis.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\activity_diagnosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_faceebook.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\faceebook.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_prvention.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_prvention.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_news5.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\news5.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_round_back_privacy_icon.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\round_back_privacy_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-debug-6:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_news.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_news_list_item.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\news_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_fragment_f_a_q_s.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\fragment_f_a_q_s.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\layout_doctors_list_item.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\layout\\doctors_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_ic_baseline_check_24.xml.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-merged_res-5:\\drawable_news2.png.flat",
+        "source": "C:\\Users\\lenovo\\daemon\\7.4\\com.example.monkeypoxwithfragment.app-main-7:\\drawable\\news2.png"
+    }
+]
